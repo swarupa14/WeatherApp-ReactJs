@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montseratt", sans-serif;
+}
+.app-warm {
+  background-image: url("./assets/mildwarm.jpg");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.7 ease-out;
+  min-height: 100vh;
+  min-width: 100vw;
+  align-self: center;
+}
+.app-cold {
+  background-image: url("./assets/mildcold.jpg");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.7 ease-out;
+  min-height: 100vh;
+  min-width: 100vw;
+  align-self: center;
+}
+.app {
+  background-image: url("./assets/toowarm.jpg");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.7 ease-out;
+  min-height: 100vh;
+  min-width: 100vw;
+  align-self: center;
+}
+.search-box {
+  padding: 10% 10% 5% 10%;
+  /* background-color: rgba(255, 255, 255, 0.2); */
+}
+.search-bar {
+  display: inline;
+  width: 100%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.4s ease;
+}
+.search-button {
+  padding: 12px;
+  margin: auto 15px;
+  border-radius: 15px;
+  font-size: 16;
+  font-weight: 300;
+  border: none;
+}
+.search-box .search-bar:hover {
+  background-color: rgba(250, 250, 250, 0.4);
+}
+::-webkit-input-placeholder {
+  color: #444;
+}
+.bottom-section {
+  text-align: center;
+  align-content: center;
+}
+.weather-card {
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 8px rgba(50, 50, 50, 0.3);
+}
+.t-box {
+  padding: 5%;
+}
+.location {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.7);
+}
+
+.date-time {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  /* font-style: italic; */
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+  padding-top: 12px;
+}
+.time {
+  font-weight: bold;
+  color: #222;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.6);
+}
+.temp {
+  /* position: relative; */
+  display: inline-block;
+  /* background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px; */
+
+  /* padding: 15px 25px; */
+
+  color: #fff;
+  font-size: 60px;
+  font-weight: 800;
+
+  text-shadow: 3px 6px rgba(50, 50, 50, 0.5);
+  text-align: center;
+}
+.other-temp {
+  padding: 5px 130px;
+  color: #eee;
+  font-size: 25px;
+  font-weight: 600;
+  text-shadow: 2px 2px rgba(50, 50, 50, 0.5);
+}
+.min-temp {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+.max-temp {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+.forecast {
+  padding-top: 20px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+.bottom-block {
+  padding-top: 20px;
+  padding-left: 50px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: 2px 2px rgba(50, 50, 50, 0.5);
+  text-align: left;
+}
